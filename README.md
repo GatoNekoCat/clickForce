@@ -2,7 +2,9 @@
 A clicking game. Gather gold and try to survive waves of enemies. 
 
 Website: 
-	Need to be able to sign in on the front page. Have a play button somewhere in the middle of the screen. If user is not logged in, it should ask the user if they want to sign in, sign up or play as a guest. At the end of a game, if player is not logged in prompt to log in or sign up to save their score. If not the score is dismissed. 
+	Need to be able to sign in on the front page. Have a play button somewhere in the middle of the screen. If user is not logged in, it should ask the user if they want to sign in, sign up or play as a guest. At the end of a game, if player is not logged in prompt to log in or sign up to save their score. If not the score is dismissed. Nav bar should contain link to view your profile, the high scores or something else perhapse.
+	High scores: Should initialy load in a the top 100 scores. Should have buttons at the top for the option of choosing different types of high scores, or to search for a specific score or user's score. 
+	Profile: Should display your stats- When you joined, how much time you've played, your personal high scores and your ranks on the high score charts. 
 
 Database:
 	Keep a database with tables for Users, High Scores, and Games. User database will contain info provided by the user at sign up, as well as a 'personal best' high score. High Scores will contain a list of the top 100 high scores in regards to: Most total gold earned(between all games played), Most gold earned in a signle game, longest total game time, longest single game time. Games table will contain data as needed for current games. 
